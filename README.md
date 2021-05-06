@@ -12,7 +12,7 @@ for several privacy levels ε in differential privacy by using simulation datase
 
 ## Fisher's exact test
 
-For the Fisher's exact test, as in the case of the chi-squared test, we conducted the experiments to evaluate the utility of our proposed methods a
+For the Fisher's exact test, as in the case of the chi-squared test, we conducted the experiments to evaluate the utility of our proposed methods
 and the thresholds for practical use of the p-values and log(p).
 
 ## Cochran-Armitage's trend test
