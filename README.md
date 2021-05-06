@@ -8,7 +8,7 @@ the chi-squared test, Fisher's exact test, and Cochran-Armitage's trend test.
 
 For the statistics in the chi-squared test, we experimented with methods to release the p-values, log(p), chi-squared statistics when using 
 2 × 2 and 3 × 2 contingency table. As for log(p), chi-squared statistics, we demonstrated the appropriate, i.e., more practical, thresholds
-for privacy level ε in differential privacy by using simulation datasets. Detailed information on the datasets used can be found in our paper. 
+for several privacy levels ε in differential privacy by using simulation datasets. Detailed information on the datasets used can be found in our paper. 
 
 ## Fisher's exact test
 
