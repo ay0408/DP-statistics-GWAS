@@ -1,6 +1,6 @@
 # DP-statistics-GWAS
 
-This is a code for simulation experiments on methods to release private statistics in GWAS. 
+This is a python code for simulation experiments on methods to release private statistics in GWAS. 
 We apply the Laplace mechanism, which is based on the concept of differential privacy, to the main statistical test methods using contingency tables:
 the chi-squared test, Fisher's exact test, and Cochran-Armitage's trend test. 
 
