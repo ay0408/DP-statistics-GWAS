@@ -24,7 +24,7 @@ the simulation data is the same as above.
 
 For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS".
 
-### Author
+### Contact
 
 Akito Yamamoto
 
