@@ -22,7 +22,7 @@ the simulation data is the same as above.
 
 ### Note
 
-For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS".
+For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004).
 
 ### Contact
 
