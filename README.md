@@ -24,3 +24,11 @@ the simulation data is the same as above.
 
 For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004).
 
+### Contact
+Akito Yamamoto
+
+Division of Medical Data Informatics, Human Genome Center,
+
+the Institute of Medical Science, the University of Tokyo
+
+a-ymmt@ims.u-tokyo.ac.jp
