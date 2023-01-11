@@ -6,7 +6,7 @@ the chi-squared test, Fisher's exact test, and Cochran-Armitage's trend test.
 
 ## the chi-squared test
 
-For the statistics in the chi-squared test, we experimented with methods to release the p-values, log(p), chi-squared statistics when using 
+For the statistics in the chi-squared test, we experimented with methods to release the P-values, log(P), chi-squared statistics when using 
 2 × 2 and 3 × 2 contingency table. As for log(p), chi-squared statistics, we demonstrated the appropriate, i.e., more practical, thresholds
 for several privacy levels ε in differential privacy by using simulation datasets. Detailed information on the datasets used can be found in our paper. 
 
@@ -17,12 +17,12 @@ and the thresholds for practical use of the p-values and log(p).
 
 ## Cochran-Armitage's trend test
 
-For the Cochran-Armitage's trend test using a 3 × 2 contingency table, we focused on the chi-squared statistics and log(p). The methods of generating
+For the Cochran-Armitage's trend test using a 3 × 2 contingency table, we focused on the chi-squared statistics and log(P). The methods of generating
 the simulation data is the same as above. 
 
 ### Note
 
-For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004).
+For details of the releasing methods, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004) published in Bioinformatics Advances.
 
 ### Contact
 Akito Yamamoto
