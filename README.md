@@ -24,9 +24,9 @@ the simulation data is the same as above.
 **In the Supplementary Material, the last sentense in S1.3 is incorrect, and the discussion on Theorem S9 (= Theorem 9 in the main text) is meaningless.**  
 **(Regarding the discussion on $\chi^2$-statistics, we believe it is correct as of now.)**
 
-**<------ I uploaded the rivised version of Theorem 9 (Revised_Theorem9.pdf).**
+**<------ I uploaded the revised version of Theorem 9 (Revised_Theorem9.pdf).**
 
-### Major cons of our methods
+## Major cons of our methods
 
 ・Restrictions on the number of cases and controls.
 
@@ -37,10 +37,14 @@ the simulation data is the same as above.
 
 **・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
 
-### Note
+## Note
 
 For more details, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004) published in Bioinformatics Advances.
 
+Errata:  
+・p.8. 3.3. l.5-7  "the degree of freedom of the Cochran-Armitage's trend test ~ is 2" → "~ is 1"  
+・p.8. 3.3. l8  "33.6" → "29.7"  
+・Supplementary Material p.1. S1.3. The last sentence is incorrect. Please see Revised_Theorem9.pdf.
 
 ### Contact
 Akito Yamamoto
