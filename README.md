@@ -35,7 +35,7 @@ the simulation data is the same as above.
 ・The analyses for the Fisher's exact test are not rigorous. (We only considered the exact probabilities obtained from the given contingency tables. (i.e, We did not consider the effects of more extreme data than given table.)) Even under these conditions, the accuracy is not high enough.  
 <----- For data with a small number of individuals, a different approach other than adding noise to the output values may by necessary.
 
-**・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
+**・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ and output accuracy once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
 
 ## Note
 
