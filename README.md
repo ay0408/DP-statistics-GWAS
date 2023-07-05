@@ -43,7 +43,7 @@ For more details, please see our paper entitled "More practical differentially p
 
 Errata:  
 ・p.8. 3.3. l.5-7  "the degree of freedom of the Cochran-Armitage's trend test ~ is 2" → "~ is 1"  
-・p.8. 3.3. l8  "33.6" → "29.7"  
+・p.8. 3.3. l.8  "33.6" → "29.7"  
 ・Supplementary Material p.1. S1.3. The last sentence is incorrect. Please see Revised_Theorem9.pdf.
 
 ### Contact
