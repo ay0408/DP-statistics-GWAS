@@ -24,7 +24,7 @@ the simulation data is the same as above.
 **In the Supplementary Material, the last sentense in S1.3 is incorrect, and the discussion on Theorem S9 (= Theorem 9 in the main text) is meaningless.**  
 **(Regarding the discussion on $\chi^2$-statistics, we believe it is correct as of now.)**
 
-**I will soon upload the rivised version of Theorem 9.**
+**<------ I uploaded the rivised version of Theorem 9 (Revised_Theorem9.pdf).**
 
 ### Major cons of our methods
 
@@ -33,9 +33,9 @@ the simulation data is the same as above.
 ・No consideration of genome dependencies.
 
 ・The analyses for the Fisher's exact test are not rigorous. (We only considered the exact probabilities obtained from the given contingency tables. (i.e, We did not consider the effects of more extreme data than given table.)) Even under these conditions, the accuracy is not high enough.  
-<--- For data with a small number of individuals, a different approach other than adding noise to the output values may by necessary.
+<----- For data with a small number of individuals, a different approach other than adding noise to the output values may by necessary.
 
-**・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. In the future, while conducting the ${\it sensitivity}$ analysis once again, we plan to develop more accurate methods for publishing P-values.**
+**・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
 
 ### Note
 
