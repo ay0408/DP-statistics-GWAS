@@ -32,7 +32,7 @@ the simulation data is the same as above.
 
 ・No consideration of genome dependencies.
 
-・The analyses for the Fisher's exact test are not rigorous. (We only considered the exact probabilities obtained from the given contingency tables. (i.e, We did not consider the effects of more extreme data than given table.)) Even under these conditions, the accuracy is not high enough.  
+・The analyses for the Fisher's exact test are not rigorous. We only considered the exact probabilities obtained from the given contingency tables as shown in Supplementary Material Section S1.2. (i.e, We did not consider the effects of more extreme data than given table on its ${\it sensitivity}$ analysis.) Therefore, the true ${\it sensitivity}$ might be greater than that shown in this study. Even under these conditions, the accuracy is not high enough.  
 <----- For data with a small number of individuals, a different approach other than adding noise to the output values may by desired.
 
 **・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ and output accuracy once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
