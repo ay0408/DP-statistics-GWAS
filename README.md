@@ -5,7 +5,7 @@ We applied the Laplace mechanism, which is based on the concept of differential 
 the chi-squared test, Fisher's exact test, and Cochran-Armitage's trend test. 
 
 ## Important Note (2023/10)
-Nowadays, it is not desirable to publish genome statistics based on their ${\it global\ sensitivities}$ (by using the simple Laplace mechanism) as in this study in terms of output accuracy. Instead, we could reduce noise significantly by using the concept of ${\it smooth\ sensitivity}$, and it would be important to explore its potential in the context of genomic statistical analysis in future (e.g. our recent paper at PST 2023). 
+Nowadays, it is not desirable to publish genome statistics based on their ${\it global\ sensitivities}$ (by using the simple Laplace mechanism) as in this study in terms of output accuracy. Instead, we could reduce noise significantly by using the concept of ${\it smooth\ sensitivity}$, and it would be important to explore its potential in the context of genomic statistical analysis in future (e.g. [our paper](https://doi.org/10.1109/PST58708.2023.10320160) presented at PST 2023). 
 
 ## the chi-squared test
 
