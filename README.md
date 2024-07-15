@@ -4,10 +4,10 @@ This is a python code for simulation experiments on methods to release private s
 We applied the Laplace mechanism, which is based on the concept of differential privacy, to the main statistical tests using contingency tables:
 the chi-squared test, Fisher's exact test, and Cochran-Armitage's trend test. 
 
-## Important Note (2023/10)
+## Important Note (2023/10, 2024/07)
 Nowadays, it is not desirable to publish genome statistics based on their ${\it global\ sensitivities}$ (by using the simple Laplace mechanism) as in this study in terms of output accuracy. Instead, we could reduce noise significantly by using the concept of ${\it smooth\ sensitivity}$, and it would be important to explore its potential in the context of genomic statistical analysis in future (e.g. [our paper](https://doi.org/10.1109/PST58708.2023.10320160) presented at PST 2023). 
 
-**The significance of this study would be that the results provide evidence that ${\it global \ sensitivity}$-based methods are no longer suitable for the publication of genome statistics, while conducting the evaluation for practical use.**
+**The significance of this study (at present) would be that the results provide evidence that ${\it global \ sensitivity}$-based methods are no longer suitable for the publication of genome statistics, while conducting the evaluation for practical use.** (The evaluation procedures for thresholds could also be used to evaluate other differentially private methods for statistics publication.)
 
 ## the chi-squared test
 
