@@ -17,7 +17,7 @@ for several privacy levels $ε$ in differential privacy by using simulation data
 
 ## Fisher's exact test
 
-For the Fisher's exact test, as in the case of the chi-squared test, we conducted the experiments to evaluate the utility of our proposed methods
+For the Fisher's exact test, as in the case of the chi-squared test, we conducted the experiments to (roughly) evaluate the utility of our proposed methods
 and the thresholds for practical use of the P-value and log(P).
 
 ## Cochran-Armitage's trend test
@@ -37,7 +37,7 @@ the simulation data is the same as above.
 
 ・No consideration of genome dependencies.
 
-・The analyses for the Fisher's exact test are not rigorous. We only considered the exact probabilities obtained from the given contingency tables as shown in Supplementary Material Section S1.2. (i.e, We did not consider the effects of more extreme data than given table on its ${\it sensitivity}$ analysis.) Therefore, the true ${\it sensitivity}$ might be greater than that shown in this study. Even under these conditions, the accuracy is not high enough.  
+・The analyses for the Fisher's exact test are not rigorous. We only considered the exact probabilities obtained from the given contingency tables as shown in Supplementary Material Section S1.2. (i.e, We did not consider the tables other than a given table. Also see the errata below.) Therefore, the true ${\it sensitivity}$ (of the overall $P$-values for the test) might be greater than that shown in Theorems 5, 6, and 7. In this study, for ease of discussion, we conducted the experiments using the ${\it sensitivity}$ values of the exact probabilities as an (rough) approximation of the true values. Even under these conditions, the accuracy is not high enough.  
 <----- For data with a small number of individuals, a different approach other than adding noise to the output values may by desired.
 
 **・Our methods for publishing log(P) in the Cochran-Armitage trend test (in the original paper) must not be used. Instead, please refer to Revised_Theorem9.pdf. In the future, while analyzing the ${\it sensitivity}$ and output accuracy once again (theoretically or experimentally), we plan to develop more accurate methods for publishing P-values.**
@@ -47,9 +47,13 @@ the simulation data is the same as above.
 For more details, please see our paper entitled "More practical differentially private publication of key statistics in GWAS" (https://doi.org/10.1093/bioadv/vbab004) published in Bioinformatics Advances.
 
 Errata:  
+・p.4. Theorem 5 "sensitivity of the Fisher's exact test $P$-values ~ contingency table" → "sensitivity of the exact probabilities obtained from a given $2 \times 2$ contingency table for the Fisher's exact test for allele frequency comparisons"  
+・p.4. Theorem 6 "sensitivity of $\log_{10}$($P$-values) obtained from the Fisher's exact test ~ $2 \times 2$ contingency table" → "sensitivity of $\log_{10}(exact\ probabilities)$ obtained from a given $2 \times 2$ contingency table for the Fisher's exact test for allele frequency comparisons"  
+・p.4. Theorem 7 "sensitivity of $\log_{10}$($P$-values) obtained from the Fisher's exact test ~ $3 \times 2$ contingency table" → "sensitivity of $\log_{10}(exact\ probabilities)$ obtained from a given $3 \times 2$ contingency table for the Fisher's exact test for genotype frequency comparisons"  
 ・p.8. 3.3. l.5-7  "the degree of freedom of the Cochran-Armitage's trend test ~ is 2" → "~ is 1"  
 ・p.8. 3.3. l.8  "33.6" → "29.7"  
-・Supplementary Material p.1. S1.3. The last sentence is incorrect. Please see Revised_Theorem9.pdf.
+・Supplementary Material p.1. S1.2. "the $p$-values obtained from the Fisher's exact test" → "the exact probabilities obtained from the given table for the Fisher's exact test"  
+・Supplementary Material p.1. S1.3. The last sentence is incorrect. Please see Revised_Theorem9.pdf.  
 
 ### Contact
 Akito Yamamoto
